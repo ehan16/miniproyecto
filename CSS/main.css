@@ -21,10 +21,7 @@ body {
 
 .banner h1 {
     font-size: 4rem;
-    text-shadow: -1px 0 rgb(255, 89, 89),
-                  0 2px rgb(44, 44, 44), 
-                  2px 0 rgb(44, 44, 44),
-                  0 -2px rgb(44, 44, 44);
+    text-shadow: -1px 0 rgb(255, 89, 89), 0 2px rgb(44, 44, 44), 2px 0 rgb(44, 44, 44), 0 -2px rgb(44, 44, 44);
 }
 
 .banner p {
@@ -46,9 +43,14 @@ body {
     justify-content: center;
 }
 
-.nav a {
+a {
     font-size: 1.1rem;
     color: rgb(228, 225, 255);
     margin: auto;
     text-decoration: none;
 }
+
+a:hover {
+    color: rgb(168, 33, 168);
+}
+
