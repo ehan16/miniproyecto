@@ -2,13 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
 }
 
-body {
+.hero {
     background: url("https://i2.wp.com/uneedmedia.com/wp-content/uploads/2018/04/Home-Four-Banner-Background-Image.png?ssl=1");
     display: grid;
     grid-template-rows: 10% 90%;
-    font-family:'Times New Roman', Times, serif;
 }
 
 .banner {
@@ -54,3 +54,7 @@ a:hover {
     color: rgb(168, 33, 168);
 }
 
+.image {
+    height: 30rem;
+    background: url("https://i2.wp.com/uneedmedia.com/wp-content/uploads/2018/04/Home-Four-Banner-Background-Image.png?ssl=1");
+}
