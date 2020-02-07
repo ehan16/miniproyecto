@@ -1,8 +1,46 @@
 ** {
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-p {
-    color: yellow;
+body {
+    background: url("https://i2.wp.com/uneedmedia.com/wp-content/uploads/2018/04/Home-Four-Banner-Background-Image.png?ssl=1");
+    display: grid;
+    grid-template-rows: 10% 90%;
+}
+
+.container {
+    color: rgb(255, 224, 238);
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    grid-row: 2 / 3;
+}
+
+.container h1 {
+    font-size: 4rem;
+    text-shadow: -1px 0 rgb(255, 89, 89),
+                  0 2px rgb(44, 44, 44), 
+                  2px 0 rgb(44, 44, 44),
+                  0 -2px rgb(44, 44, 44);
+}
+
+.container p {
+    width: 70%;
+    font-size: 1.3rem;
+    color: rgb(228, 225, 255);
+}
+
+.nav {
+    grid-row: 1 / 2;
+    background-color: rgb(77, 0, 64);
+    color: rgb(255, 224, 238);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
 }
