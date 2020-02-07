@@ -13,8 +13,8 @@ body {
 .container {
     color: rgb(255, 224, 238);
     position: absolute;
-    top: 50%;
-    left: 40%;
+    top: 30%;
+    left: 20%;
     grid-row: 2 / 3;
 }
 
@@ -34,7 +34,7 @@ body {
 
 .nav {
     grid-row: 1 / 2;
-    background-color: rgb(77, 0, 64);
+    background-color: rgba(112, 64, 104, 0.418);
     color: rgb(255, 224, 238);
     position: absolute;
     top: 0;
@@ -43,4 +43,11 @@ body {
     height: 3rem;
     display: flex;
     justify-content: center;
+}
+
+.nav a {
+    font-size: 1.1rem;
+    color: rgb(228, 225, 255);
+    margin: auto;
+    text-decoration: none;
 }
