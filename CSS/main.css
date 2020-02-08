@@ -97,6 +97,7 @@ a:hover {
   height: 40%;
   width: 40%;
   margin: 3%;
+  border-radius: 10px;
 }
 
 #portfolio {
