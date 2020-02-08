@@ -45,11 +45,9 @@
                 </div>
                 <div class="content">
                     <h1>Guacamaya Airlines</h1>
-                    <h3>November, 3rd</h3>
-                    <ul>
-                        <li>Java</li>
-                        <li>Netbeans</li>
-                    </ul>
+                    <h3><em>November, 3rd</em></h3>
+                    <p class="description">Java, netbeans</p>
+                    <a href="www.google.com" target="_blank">Link</a>
                 </div>
             </div>
             <div class="project-container project2">
@@ -58,11 +56,9 @@
                 </div>
                 <div class="content">
                     <h1>Battleship</h1>
-                    <h3>March, 29th</h3>
-                    <ul>
-                        <li>Java</li>
-                        <li>Netbeans</li>
-                    </ul>
+                    <h3><em>March, 29th</em></h3>
+                    <p class="description">Java, netbeans</p>
+                    <a href="www.google.com" target="_blank">Link</a>
                 </div>
             </div>
             <div class="project-container project3">
@@ -71,14 +67,13 @@
                 </div>
                 <div class="content">
                     <h1>GuacaHash</h1>
-                    <h3>December, 27th</h3>
-                    <ul>
-                        <li>Java</li>
-                        <li>Netbeans</li>
-                    </ul>               
+                    <h3><em>December, 27th</em></h3>
+                    <p class="description">Java, netbeans</p>     
+                    <a href="www.google.com" target="_blank">Link</a>         
                 </div>
             </div>
         </div>
+        <h6>Me canseeee</h6>
       </div>
       <div id="skills">
         <h2>SKILLS</h2>
@@ -131,7 +126,27 @@
       </div>
       <div id="contact">
         <h2>CONTACT</h2>
+        <form class="form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required placeholder="Your name" class="input"> 
+            <br>
+            <label for="phone">Phone number:</label>
+            <input type="number" id="phone" required placeholder="Your phone number" class="input">
+            <br>
+            <label for="email">Email:</label>
+            <input type="text" id="email" required email placeholder="Your email" class="input">
+            <br>
+            <label for="message">Message:</label>
+            <textarea name="message" id="message" cols="45" rows="10" required placeholder="Your message"></textarea>
+            <br>
+            <button type="button" onclick="onSubmit()" class="button">Send</button>
+        </form>
       </div>
+      <div class="social-media">
+          <a href="https://api.whatsapp.com/send?phone=584143175429" target="_blank"><img class="ws" src="../images/whatsapp.png" height="50px"></a>
+          <a href="https://www.facebook.com/e.han843" target="_blank"><img class="fb" src="../images/facebook.png" height="70px"></a>
+          <a href="https://www.instagram.com/ehc_56/?hl=es-la" target="_blank"><img class="ig" src="../images/instagram.png" height="50px"></a>
+    </div>
     </div>
     <script src="../JS/main.js"></script>
   </body>
